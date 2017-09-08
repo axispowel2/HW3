@@ -1,5 +1,5 @@
    const getGithubPhofile = () => 
-     fetch ('https://api.github.com/users/axispowel2')
+     fetch ('https://api.punkapi.com/v2/beers')
 
      export default getGithubPhofile
 

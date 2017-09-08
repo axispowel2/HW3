@@ -1,2 +1,72 @@
-<script src='build/main.bundle.js'></script>
-	EIEIEIEi
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Beers
+        </title>
+        <!--
+	<script src='build/main.bundle.js'></script>-->
+        <script src="js/index.js">
+        </script>
+        <style type="text/css">
+        	.top{
+        		margin-top: 20px;
+
+        	}
+        	input[type=text]{
+        		border: 2px solid blue;
+        		width: 20%;
+        	}
+        	input[type=text]:focus{
+        		border: 2px solid #0A0A2A;
+        	}
+        	button{
+        		border: 5px solid #FF4000 ;
+        		background-color: #FAAC58;
+
+        	}
+        	button:hover{
+        		border: 5px solid #FAAC58 ;
+        		background-color:#FF4000;
+        		
+        	}
+        	#outputt{
+        		border: 2px solid #4B8A08; 
+        		width: 80%;
+        		padding: 5px;
+        	}
+        	span{
+        		color:#58FA82;
+        	}
+        	li{
+        		color: #F6CEF5;
+        	}
+        	ul{
+        		border: 2px solid #0B3B0B;
+        	}
+        	.bg{
+        		background-color:#0B173B; 
+        		background-repeat: no-repeat;
+        		width: 100%;
+        		margin-left: 8%;
+        	}
+        	h4{
+        		color: #2EFEF7;
+        	}
+        </style>
+    </head>
+    <body class="bg">
+        <div class="top">
+        	<input type="text" id="inputt" maxlength="50" placeholder="Search beers name here!">
+        	<button id="btnN" onclick="beerSSearchN(document.getElementById('inputt').value)">Search!!!</button>
+        	<input type="number" id="inputt2" max="50" placeholder="ABV less than the supplied number">
+        	<button id="btnN" onclick="beerSSearchAbv(document.getElementById('inputt2').value)">Search!!!</button>
+        	<input type="number" id="inputt3" max="200" placeholder="IBU less than the supplied number">
+        	<button id="btnN" onclick="beerSSearchIbu(document.getElementById('inputt3').value)">Search!!!</button>
+        </div>
+        <br>
+        <h4 id="fou"></h4><br>
+        <div id="outputt" >
+        </div>
+    </body>
+</html>

@@ -1,7 +1,7 @@
 {
   "name": "cp353_208",
   "version": "1.0.0",
-  "description": "introduction to ES6",
+  "description": "Homework3",
   "main": "index.js",
   "scripts": {
     "transpile": "browserify js/index.js -o build/main.bundle.js -t [babelify --presets es2015 ]",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axispowel2/intro-to-es6.git"
+    "url": "git+https://github.com/axispowel2/HW3.git"
   },
   "author": "Sarawut",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/axispowel2/intro-to-es6/issues"
+    "url": "https://github.com/axispowel2/HW3/issues"
   },
-  "homepage": "https://github.com/axispowel2/intro-to-es6#readme",
+  "homepage": "https://github.com/axispowel2/HW3#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
